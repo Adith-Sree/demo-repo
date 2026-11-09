@@ -1,0 +1,20 @@
+{
+  "module": "shaft",
+  "_comment": "Bending moment fluctuating 200..600 N.m and torque 200..600 N.m at a keyseat, chosen material 45C8 (1045 CD).",
+  "bm_mode": "direct",
+  "M_max": 600,
+  "M_min": 200,
+  "rotating": false,
+  "T_max": 600,
+  "T_min": 200,
+  "fos": 2.0,
+  "criterion": "soderberg",
+  "surface": "machined",
+  "reliability": 99,
+  "temperature": 25,
+  "notch": "keyseat",
+  "d_max": 80,
+  "twist_length": 800,
+  "twist_allow_deg": 1.0,
+  "material": "1045-CD"
+}

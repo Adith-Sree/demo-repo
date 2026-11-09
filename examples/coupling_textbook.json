@@ -1,0 +1,19 @@
+{
+  "module": "coupling",
+  "_comment": "Classic textbook problem: cast-iron protective flange coupling for 15 kW at 900 rpm, service factor 1.35; permissible shear 40 MPa (shaft, key, bolts), crushing 80 MPa (key, bolts), shear in cast iron 8 MPa. Expected: d = 35 mm, 3 x M8 bolts.",
+  "torque_mode": "power",
+  "power_kW": 15,
+  "rpm": 900,
+  "service_factor": 1.35,
+  "shaft_material": "1030-HR",
+  "flange_material": "FG200",
+  "tau_shaft": 40,
+  "tau_key": 40,
+  "sigc_key": 80,
+  "tau_bolt": 40,
+  "sigc_bolt": 80,
+  "tau_flange": 8,
+  "d_max": 100,
+  "shaft_length": 1000,
+  "twist_allow_deg": 5.0
+}

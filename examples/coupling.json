@@ -1,0 +1,17 @@
+{
+  "module": "coupling",
+  "_comment": "Rigid flanged coupling for 1000 N.m, permissible stresses derived from the materials database.",
+  "torque_mode": "torque",
+  "T": 1000,
+  "service_factor": 1.25,
+  "fos": 3.0,
+  "fos_flange": 6.0,
+  "shaft_material": "auto",
+  "key_material": "same",
+  "bolt_material": "same",
+  "flange_material": "FG200",
+  "d_max": 80,
+  "shaft_length": 1000,
+  "twist_allow_deg": 1.0,
+  "n_bolts": 0
+}

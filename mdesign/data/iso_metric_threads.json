@@ -1,0 +1,30 @@
+{
+  "_about": "ISO metric screw threads (ISO 261 / ISO 724) with matching hexagon nut (ISO 4032), hexagon bolt width across flats (ISO 4014/4017) and plain washer (ISO 7089) data. All dimensions in mm. Pitch diameter, minor diameter and stress areas are computed from d and P using the ISO 724 basic profile, so they are not stored here. first_choice = true marks the preferred (first-choice) sizes of ISO 261.",
+  "threads": [
+    {"d": 3,  "pitch_coarse": 0.5,  "pitch_fine": null, "first_choice": true,  "nut_height": 2.4,  "across_flats": 5.5, "washer_thickness": 0.5},
+    {"d": 4,  "pitch_coarse": 0.7,  "pitch_fine": null, "first_choice": true,  "nut_height": 3.2,  "across_flats": 7,   "washer_thickness": 0.8},
+    {"d": 5,  "pitch_coarse": 0.8,  "pitch_fine": null, "first_choice": true,  "nut_height": 4.7,  "across_flats": 8,   "washer_thickness": 1.0},
+    {"d": 6,  "pitch_coarse": 1.0,  "pitch_fine": null, "first_choice": true,  "nut_height": 5.2,  "across_flats": 10,  "washer_thickness": 1.6},
+    {"d": 8,  "pitch_coarse": 1.25, "pitch_fine": 1.0,  "first_choice": true,  "nut_height": 6.8,  "across_flats": 13,  "washer_thickness": 1.6},
+    {"d": 10, "pitch_coarse": 1.5,  "pitch_fine": 1.25, "first_choice": true,  "nut_height": 8.4,  "across_flats": 16,  "washer_thickness": 2.0},
+    {"d": 12, "pitch_coarse": 1.75, "pitch_fine": 1.25, "first_choice": true,  "nut_height": 10.8, "across_flats": 18,  "washer_thickness": 2.5},
+    {"d": 14, "pitch_coarse": 2.0,  "pitch_fine": 1.5,  "first_choice": false, "nut_height": 12.8, "across_flats": 21,  "washer_thickness": 2.5},
+    {"d": 16, "pitch_coarse": 2.0,  "pitch_fine": 1.5,  "first_choice": true,  "nut_height": 14.8, "across_flats": 24,  "washer_thickness": 3.0},
+    {"d": 18, "pitch_coarse": 2.5,  "pitch_fine": 1.5,  "first_choice": false, "nut_height": 15.8, "across_flats": 27,  "washer_thickness": 3.0},
+    {"d": 20, "pitch_coarse": 2.5,  "pitch_fine": 1.5,  "first_choice": true,  "nut_height": 18.0, "across_flats": 30,  "washer_thickness": 3.0},
+    {"d": 22, "pitch_coarse": 2.5,  "pitch_fine": 1.5,  "first_choice": false, "nut_height": 19.4, "across_flats": 34,  "washer_thickness": 3.0},
+    {"d": 24, "pitch_coarse": 3.0,  "pitch_fine": 2.0,  "first_choice": true,  "nut_height": 21.5, "across_flats": 36,  "washer_thickness": 4.0},
+    {"d": 27, "pitch_coarse": 3.0,  "pitch_fine": 2.0,  "first_choice": false, "nut_height": 23.8, "across_flats": 41,  "washer_thickness": 4.0},
+    {"d": 30, "pitch_coarse": 3.5,  "pitch_fine": 2.0,  "first_choice": true,  "nut_height": 25.6, "across_flats": 46,  "washer_thickness": 4.0},
+    {"d": 33, "pitch_coarse": 3.5,  "pitch_fine": 2.0,  "first_choice": false, "nut_height": 28.7, "across_flats": 50,  "washer_thickness": 5.0},
+    {"d": 36, "pitch_coarse": 4.0,  "pitch_fine": 3.0,  "first_choice": true,  "nut_height": 31.0, "across_flats": 55,  "washer_thickness": 5.0},
+    {"d": 39, "pitch_coarse": 4.0,  "pitch_fine": 3.0,  "first_choice": false, "nut_height": 33.4, "across_flats": 60,  "washer_thickness": 6.0},
+    {"d": 42, "pitch_coarse": 4.5,  "pitch_fine": 3.0,  "first_choice": true,  "nut_height": 34.0, "across_flats": 65,  "washer_thickness": 8.0},
+    {"d": 45, "pitch_coarse": 4.5,  "pitch_fine": 3.0,  "first_choice": false, "nut_height": 36.0, "across_flats": 70,  "washer_thickness": 8.0},
+    {"d": 48, "pitch_coarse": 5.0,  "pitch_fine": 3.0,  "first_choice": true,  "nut_height": 38.0, "across_flats": 75,  "washer_thickness": 8.0},
+    {"d": 52, "pitch_coarse": 5.0,  "pitch_fine": 4.0,  "first_choice": false, "nut_height": 42.0, "across_flats": 80,  "washer_thickness": 8.0},
+    {"d": 56, "pitch_coarse": 5.5,  "pitch_fine": 4.0,  "first_choice": true,  "nut_height": 45.0, "across_flats": 85,  "washer_thickness": 10.0},
+    {"d": 60, "pitch_coarse": 5.5,  "pitch_fine": 4.0,  "first_choice": false, "nut_height": 48.0, "across_flats": 90,  "washer_thickness": 10.0},
+    {"d": 64, "pitch_coarse": 6.0,  "pitch_fine": 4.0,  "first_choice": true,  "nut_height": 51.0, "across_flats": 95,  "washer_thickness": 10.0}
+  ]
+}

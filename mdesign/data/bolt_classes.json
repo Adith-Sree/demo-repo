@@ -1,0 +1,13 @@
+{
+  "_about": "Mechanical property classes for steel bolts, screws and studs (ISO 898-1), as tabulated in Shigley Table 8-11. Sp = minimum proof strength, Sut = minimum tensile strength, Sy = minimum yield strength (MPa). Se = fully corrected endurance strength for rolled threads (Shigley Table 8-17); null means it is estimated by the program (see bolted_joint.py). d_min/d_max give the size range (mm) each row applies to. rel_cost is an illustrative cost factor used only to rank options.",
+  "classes": [
+    {"class": "4.6",  "d_min": 3,  "d_max": 64, "Sp": 225, "Sut": 400,  "Sy": 240,  "Se": null, "rel_cost": 1.00},
+    {"class": "4.8",  "d_min": 3,  "d_max": 64, "Sp": 310, "Sut": 420,  "Sy": 340,  "Se": null, "rel_cost": 1.00},
+    {"class": "5.8",  "d_min": 3,  "d_max": 64, "Sp": 380, "Sut": 520,  "Sy": 420,  "Se": null, "rel_cost": 1.10},
+    {"class": "8.8",  "d_min": 3,  "d_max": 16, "Sp": 580, "Sut": 800,  "Sy": 640,  "Se": 129,  "rel_cost": 1.30},
+    {"class": "8.8",  "d_min": 17, "d_max": 64, "Sp": 600, "Sut": 830,  "Sy": 660,  "Se": 129,  "rel_cost": 1.30},
+    {"class": "9.8",  "d_min": 3,  "d_max": 16, "Sp": 650, "Sut": 900,  "Sy": 720,  "Se": 140,  "rel_cost": 1.40},
+    {"class": "10.9", "d_min": 3,  "d_max": 64, "Sp": 830, "Sut": 1040, "Sy": 940,  "Se": 162,  "rel_cost": 1.80},
+    {"class": "12.9", "d_min": 3,  "d_max": 64, "Sp": 970, "Sut": 1220, "Sy": 1100, "Se": 190,  "rel_cost": 2.40}
+  ]
+}

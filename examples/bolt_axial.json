@@ -1,0 +1,18 @@
+{
+  "module": "bolt",
+  "_comment": "Cylinder cover held by 8 bolts; the gas load on the cover fluctuates between 30 and 120 kN.",
+  "load_type": "axial",
+  "P_max": 120,
+  "P_min": 30,
+  "n_bolts": 8,
+  "fos": 2.0,
+  "bolt_class": "auto",
+  "bolt_size": "auto",
+  "series": "coarse",
+  "first_choice_only": true,
+  "preload": "reusable",
+  "nut_factor": 0.2,
+  "member_material": "1020-HR",
+  "grip": 40,
+  "washers": true
+}

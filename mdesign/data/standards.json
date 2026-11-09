@@ -1,0 +1,46 @@
+{
+  "_about": "Standard size series used to round calculated dimensions up to purchasable / preferred sizes. All dimensions in mm.",
+  "shaft_diameters": {
+    "_source": "Standard transmission-shaft sizes listed in V.B. Bhandari, Design of Machine Elements: 25-60 in 5 mm steps, 60-110 in 10 mm steps, 110-140 in 15 mm steps, 140-500 in 20 mm steps; smaller sizes added in 2 mm steps.",
+    "values": [10, 12, 14, 16, 18, 20, 22, 25, 30, 35, 40, 45, 50, 55, 60, 70, 80, 90, 100, 110, 125, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480, 500]
+  },
+  "parallel_keys": {
+    "_source": "Parallel keys, IS 2048 / ISO R773 / DIN 6885: key width b x height h for a shaft diameter d where d_over < d <= d_upto.",
+    "rows": [
+      {"d_over": 6,   "d_upto": 8,   "b": 2,   "h": 2},
+      {"d_over": 8,   "d_upto": 10,  "b": 3,   "h": 3},
+      {"d_over": 10,  "d_upto": 12,  "b": 4,   "h": 4},
+      {"d_over": 12,  "d_upto": 17,  "b": 5,   "h": 5},
+      {"d_over": 17,  "d_upto": 22,  "b": 6,   "h": 6},
+      {"d_over": 22,  "d_upto": 30,  "b": 8,   "h": 7},
+      {"d_over": 30,  "d_upto": 38,  "b": 10,  "h": 8},
+      {"d_over": 38,  "d_upto": 44,  "b": 12,  "h": 8},
+      {"d_over": 44,  "d_upto": 50,  "b": 14,  "h": 9},
+      {"d_over": 50,  "d_upto": 58,  "b": 16,  "h": 10},
+      {"d_over": 58,  "d_upto": 65,  "b": 18,  "h": 11},
+      {"d_over": 65,  "d_upto": 75,  "b": 20,  "h": 12},
+      {"d_over": 75,  "d_upto": 85,  "b": 22,  "h": 14},
+      {"d_over": 85,  "d_upto": 95,  "b": 25,  "h": 14},
+      {"d_over": 95,  "d_upto": 110, "b": 28,  "h": 16},
+      {"d_over": 110, "d_upto": 130, "b": 32,  "h": 18},
+      {"d_over": 130, "d_upto": 150, "b": 36,  "h": 20},
+      {"d_over": 150, "d_upto": 170, "b": 40,  "h": 22},
+      {"d_over": 170, "d_upto": 200, "b": 45,  "h": 25},
+      {"d_over": 200, "d_upto": 230, "b": 50,  "h": 28},
+      {"d_over": 230, "d_upto": 260, "b": 56,  "h": 32},
+      {"d_over": 260, "d_upto": 290, "b": 63,  "h": 32},
+      {"d_over": 290, "d_upto": 330, "b": 70,  "h": 36},
+      {"d_over": 330, "d_upto": 380, "b": 80,  "h": 40},
+      {"d_over": 380, "d_upto": 440, "b": 90,  "h": 45},
+      {"d_over": 440, "d_upto": 500, "b": 100, "h": 50}
+    ]
+  },
+  "key_lengths": {
+    "_source": "Preferred key lengths, IS 2048 / DIN 6885.",
+    "values": [6, 8, 10, 12, 14, 16, 18, 20, 22, 25, 28, 32, 36, 40, 45, 50, 56, 63, 70, 80, 90, 100, 110, 125, 140, 160, 180, 200, 220, 250, 280, 320, 360, 400, 450, 500]
+  },
+  "bolt_lengths": {
+    "_source": "Preferred nominal lengths for hexagon bolts and screws, ISO 4014 / ISO 4017.",
+    "values": [6, 8, 10, 12, 16, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480, 500]
+  }
+}

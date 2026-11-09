@@ -1,0 +1,23 @@
+{
+  "module": "shaft",
+  "_comment": "Gear + pulley on a shaft supported by two bearings 600 mm apart. Loads and torque fluctuate between min and max.",
+  "bm_mode": "beam",
+  "span": 600,
+  "loads": [
+    {"name": "Gear (r = 150 mm)", "x": 150, "Fv_max": 1456, "Fv_min": 485, "Fh_max": 4000, "Fh_min": 1333},
+    {"name": "Pulley", "x": 450, "Fv_max": 4500, "Fv_min": 1500, "Fh_max": 0, "Fh_min": 0}
+  ],
+  "rotating": true,
+  "T_max": 600,
+  "T_min": 200,
+  "fos": 2.0,
+  "criterion": "goodman",
+  "surface": "machined",
+  "reliability": 90,
+  "temperature": 25,
+  "notch": "shoulder-rounded",
+  "d_max": 60,
+  "twist_length": 1000,
+  "twist_allow_deg": 1.0,
+  "material": "auto"
+}

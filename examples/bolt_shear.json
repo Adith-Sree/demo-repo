@@ -1,0 +1,21 @@
+{
+  "module": "bolt",
+  "_comment": "Lap joint, 4 bolts, transverse load fluctuating 10..30 kN, bolts of class 8.8, bearing type.",
+  "load_type": "shear",
+  "P_max": 30,
+  "P_min": 10,
+  "n_bolts": 4,
+  "fos": 2.0,
+  "bolt_class": "8.8",
+  "bolt_size": "auto",
+  "series": "coarse",
+  "first_choice_only": true,
+  "preload": "reusable",
+  "member_material": "1020-HR",
+  "grip": 24,
+  "washers": true,
+  "joint_type": "bearing",
+  "shear_planes": 1,
+  "plate_thickness": 12,
+  "threads_in_shear_plane": false
+}
